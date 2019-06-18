@@ -1,0 +1,44 @@
+  Medaka_tracking_newGUI.Form1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Medaka_tracking_newGUI, Version=1.0.*, Culture=ロケールに依存しない言語 (ロケールに依存しない国): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Medaka_tracking_newGUI.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String strfilename : Public
+    Int32 num_frames : Public
+    Int32 time : Public
+    Int32 width0 : Public
+    Int32 height0 : Public
+    Boolean video_set : Public
+    Boolean background_set : Public
+    Boolean bcgd1st_set : Public
+    Boolean bcgd2nd_set : Public
+    Boolean bcgd3rd_set : Public
+    Boolean show_box_area : Public
+    Boolean setting_box_area : Public
+    Boolean drawing_box_area : Public
+    Boolean box_area_set : Public
+    Boolean setting_roi : Public
+    Boolean drawing_roi : Public
+    Boolean roi_set : Public
+    Boolean roi_x_set : Public
+    Boolean roi_y_set : Public
+    Boolean roi_width_set : Public
+    Boolean roi_height_set : Public
+    Boolean setting_size : Public
+  Methods:
+    cvtStrStr(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, String): PrivateScope, Public, HideBySig
